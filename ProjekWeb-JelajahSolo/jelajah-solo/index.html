@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Jelajah Solo - Portal Informasi Wisata, Kuliner, Sejarah, Budaya & Transportasi Kota Surakarta Hadiningrat bertema Modern Gold & Black.">
+  <meta name="keywords"
+    content="Solo, Surakarta, Wisata Solo, Kuliner Solo, Keraton Surakarta, Mangkunegaran, Batik Laweyan, The Spirit of Java">
+  <meta name="theme-color" content="#09090c">
+  <title>Jelajah Solo — Pesona Budaya & Wisata Surakarta Hadiningrat</title>
+
+  <!-- Google Fonts: Playfair Display, Plus Jakarta Sans, Cinzel Decorative -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       HEADER & STICKY NAVBAR
+       ========================================================================== -->
+  <header class="navbar" id="mainNavbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="brand-logo" aria-label="Beranda Jelajah Solo">
+        <div class="logo-wayang">
+          <img src="assets/images/logowayang.png" alt="Logo Wayang Jelajah Solo">
+        </div>
+        <div class="brand-text">
+          <h1>JELAJAH SOLO</h1>
+          <span>The Spirit of Java</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#destinasi" class="nav-link">Destinasi</a></li>
+          <li><a href="#kuliner" class="nav-link">Kuliner</a></li>
+          <li><a href="#penginapan" class="nav-link">Penginapan</a></li>
+          <li><a href="#budaya" class="nav-link">Budaya</a></li>
+          <li><a href="#transportasi" class="nav-link">Transportasi</a></li>
+          <li><a href="#itinerary" class="nav-link">Itinerary</a></li>
+          <li><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li><a href="#rekomendasi" class="nav-link">Rekomendasi</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons (Ambient Audio + Mobile Menu) -->
+      <div class="nav-actions">
+        <!-- Audio Gamelan Ambient Player Toggle -->
+        <button id="audioToggleBtn" class="audio-toggle-btn" title="Putar Musik Latar Gamelan Solo"
+          aria-label="Putar Audio Gamelan">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M9 18V5l12-2v13" />
+            <circle cx="6" cy="18" r="3" />
+            <circle cx="18" cy="16" r="3" />
+          </svg>
+        </button>
+
+        <!-- Mobile Toggle Button -->
+        <button class="mobile-toggle" aria-label="Buka Menu Navigasi">
+          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION DENGAN IMAGE CAROUSEL
+         ========================================================================== -->
+    <!-- ==========================================================================
+         HALAMAN BERANDA (HERO + STATS + PREVIEWS TEASER)
+         ========================================================================== -->
+    <div class="page-view active-page" id="beranda">
+      <!-- Hero Banner -->
+      <section class="hero">
+        <div class="hero-slider-wrapper">
+          <!-- Slide 1: Keraton Surakarta -->
+          <div class="hero-slide active"
+            style="background-image: url('https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1920&q=85');">
+          </div>
+          <!-- Slide 2: Pura Mangkunegaran -->
+          <div class="hero-slide" style="background-image: url('assets/images/De Tjolomadoe.jpg');"></div>
+          <!-- Slide 3: De Tjolomadoe Heritage -->
+          <div class="hero-slide" style="background-image: url('assets/images/pura2.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-tag">
+              <span>Surakarta Hadiningrat</span>
+              <span>•</span>
+              <span>The Spirit of Java</span>
+            </div>
+
+            <h2 class="hero-title">
+              Mahakarya <span class="gold-gradient-text">Budaya Jawa</span> di Kota Surakarta
+            </h2>
+
+            <p class="hero-subtitle">
+              Rasakan keagungan dua istana wangsa Mataram, jelajahi surga kuliner legendaris, sentuhan magis kain batik
+              adiluhung, serta keramahan khas kota Solo yang menghangatkan jiwa.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#destinasi" class="btn btn-primary-gold">
+                <span>Jelajahi Destinasi</span>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+              <a href="#kuliner" class="btn btn-outline-gold">
+                <span>Kuliner Legendaris</span>
+              </a>
+            </div>
+
+            <!-- Carousel Dots -->
+            <div class="hero-controls">
+              <div class="hero-dot active" data-slide="0" title="Slide 1: Keraton Surakarta"></div>
+              <div class="hero-dot" data-slide="1" title="Slide 2: Pura Mangkunegaran"></div>
+              <div class="hero-dot" data-slide="2" title="Slide 3: De Tjolomadoe"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Stats Counter Bar -->
+      <section class="stats-bar" aria-label="Statistik Kota Solo">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number gold-gradient-text">15+</div>
+              <div class="stat-label">Destinasi Ikonik</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number gold-gradient-text">50+</div>
+              <div class="stat-label">Kuliner Legendaris Otentik</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number gold-gradient-text">275+</div>
+              <div class="stat-label">Tahun Jejak Sejarah Mataram</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number gold-gradient-text">100%</div>
+              <div class="stat-label">Pesona Keramahan Budaya</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Teaser Section di Halaman Beranda -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div class="badge-tag">Sekilas Surakarta</div>
+            <h2 class="section-title">Pesona Unggulan <span class="gold-gradient-text">Kota Solo</span></h2>
+            <p class="section-desc">
+              Pilihan destinasi dan kuliner terfavorit yang tidak boleh Anda lewatkan saat berkunjung ke Surakarta
+              Hadiningrat.
+            </p>
+          </div>
+
+          <!-- Teaser Destinasi Populer -->
+          <div style="margin-bottom: 55px;">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+              <h3 style="font-size: 1.5rem; color: var(--gold-light);">Destinasi Pilihan Wisatawan</h3>
+              <a href="#destinasi" class="btn btn-outline-gold btn-sm">Buka Halaman Destinasi Lengkap &rarr;</a>
+            </div>
+            <div class="cards-grid" id="berandaDestGrid"></div>
+          </div>
+
+          <!-- Teaser Kuliner Populer -->
+          <div style="margin-bottom: 45px;">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+              <h3 style="font-size: 1.5rem; color: var(--gold-light);">Cita Rasa Kuliner Ikonik</h3>
+              <a href="#kuliner" class="btn btn-outline-gold btn-sm">Buka Halaman Kuliner Lengkap &rarr;</a>
+            </div>
+            <div class="cards-grid" id="berandaCulinaryGrid"></div>
+          </div>
+
+          <!-- Teaser Penginapan Populer -->
+          <div style="margin-bottom: 45px;">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+              <h3 style="font-size: 1.5rem; color: var(--gold-light);">Penginapan & Hotel Pilihan</h3>
+              <a href="#penginapan" class="btn btn-outline-gold btn-sm">Buka Halaman Penginapan Lengkap &rarr;</a>
+            </div>
+            <div class="cards-grid" id="berandaHotelGrid"></div>
+          </div>
+
+          <!-- Quick Navigation Card -->
+          <div class="quick-plan-card">
+            <h3 style="font-size: 1.8rem; margin-bottom: 12px; color: var(--gold-light);">Siap Merencanakan Kunjungan
+              Anda?</h3>
+            <p style="color: var(--text-muted); max-width: 650px; margin: 0 auto 24px;">
+              Temukan panduan sejarah dinasti Mataram, transportasi terintegrasi, itinerary harian praktis, serta
+              saksikan koleksi galeri video Solo.
+            </p>
+            <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+              <a href="#penginapan" class="btn btn-outline-gold btn-sm">Penginapan & Hotel</a>
+              <a href="#budaya" class="btn btn-outline-gold btn-sm">Sejarah & Budaya</a>
+              <a href="#transportasi" class="btn btn-outline-gold btn-sm">Info Transportasi</a>
+              <a href="#itinerary" class="btn btn-primary-gold btn-sm">Panduan Itinerary</a>
+              <a href="#galeri" class="btn btn-outline-gold btn-sm">Galeri Multimedia</a>
+              <a href="#rekomendasi" class="btn btn-outline-gold btn-sm">Form Rekomendasi</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================================================
+         SECTION 1: DESTINASI WISATA (FILTER & LIVE SEARCH)
+         ========================================================================== -->
+    <section class="section page-view" id="destinasi">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Pariwisata Surakarta</div>
+          <h2 class="section-title">Destinasi <span class="gold-gradient-text">Wisata Terpopuler</span></h2>
+          <p class="section-desc">
+            Dari kemegahan istana kerajaan abad ke-18, ruang seni modern, hingga keasrian taman kota bersejarah. Temukan
+            tujuan favorit Anda.
+          </p>
+        </div>
+
+        <!-- Filter & Search Box Interaktif -->
+        <div class="filter-search-wrapper">
+          <div class="search-input-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input type="text" id="destinationSearch" class="search-field"
+              placeholder="Cari nama destinasi wisata (contoh: Keraton, Balekambang, Safari)...">
+          </div>
+
+          <div class="category-tabs">
+            <button class="filter-chip active" data-category="semua">Semua Kategori</button>
+            <button class="filter-chip" data-category="sejarah">Sejarah & Keraton</button>
+            <button class="filter-chip" data-category="alam">Taman & Alam</button>
+            <button class="filter-chip" data-category="belanja">Belanja & Budaya</button>
+            <button class="filter-chip" data-category="modern">Modern & Seni</button>
+          </div>
+
+          <div id="searchResultsInfo" class="search-results-info"></div>
+        </div>
+
+        <!-- Cards Grid Container (Di-render via data.js & app.js) -->
+        <div class="cards-grid" id="destinationsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 2: KULINER KHAS SOLO
+         ========================================================================== -->
+    <section class="section section-alt page-view" id="kuliner">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Gastronomi Tradisional</div>
+          <h2 class="section-title">Surga <span class="gold-gradient-text">Kuliner Legendaris</span></h2>
+          <p class="section-desc">
+            Nikmati kelezatan resep warisan turun-temurun para juru masak keraton dan kedai legendaris yang memanjakan
+            lidah.
+          </p>
+        </div>
+
+        <!-- Culinary Grid -->
+        <div class="cards-grid" id="culinaryGrid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION: PENGINAPAN & HOTEL DI SOLO
+         ========================================================================== -->
+    <section class="section page-view" id="penginapan">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Akomodasi & Istirahat</div>
+          <h2 class="section-title">Pilihan <span class="gold-gradient-text">Penginapan & Hotel Solo</span></h2>
+          <p class="section-desc">
+            Temukan hotel berbintang lima megah, resor warisan budaya bernuansa keraton Jawa, hingga penginapan
+            strategis dekat stasiun dan pusat kota.
+          </p>
+        </div>
+
+        <!-- Filter & Live Search Penginapan -->
+        <div class="filter-search-wrapper">
+          <div class="search-input-box">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="hotelSearch" class="search-field"
+              placeholder="Cari nama hotel atau area (contoh: Royal Surakarta, Alila, Laweyan, Balapan)...">
+          </div>
+
+          <div class="category-tabs">
+            <button class="filter-chip active" data-hotel-cat="semua">Semua Tipe</button>
+            <button class="filter-chip" data-hotel-cat="mewah">Mewah & Bintang 5</button>
+            <button class="filter-chip" data-hotel-cat="heritage">Heritage & Butik</button>
+            <button class="filter-chip" data-hotel-cat="strategis">Strategis & Dekat Stasiun</button>
+          </div>
+
+          <div id="hotelSearchResultsInfo" class="search-results-info"></div>
+        </div>
+
+        <!-- Cards Grid Penginapan -->
+        <div class="cards-grid" id="hotelsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 3: SEJARAH & BUDAYA
+         ========================================================================== -->
+    <section class="section section-alt page-view" id="budaya">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Warisan Adiluhung</div>
+          <h2 class="section-title">Garis Waktu <span class="gold-gradient-text">Sejarah Kota Solo</span></h2>
+          <p class="section-desc">
+            Menapaki kilas balik berdirinya dinasti Mataram Islam, perpecahan nagari, hingga kejayaan Solo sebagai pusat
+            peradaban Jawa.
+          </p>
+        </div>
+
+        <!-- Timeline Sejarah Solo -->
+        <div class="timeline-container" id="historyTimeline"></div>
+
+        <!-- Sub-section: Filosofi Motif Batik Solo -->
+        <div class="section-header" style="margin-top: 80px; margin-bottom: 25px;">
+          <div class="badge-tag">Adibusana Keraton</div>
+          <h3 style="font-size: 2.1rem;">Filosofi <span class="gold-gradient-text">Motif Batik Solo</span></h3>
+          <p class="section-desc">
+            Setiap goresan canting dan malam pada motif batik khas Surakarta menyimpan doa serta pedoman luhur
+            kehidupan.
+          </p>
+        </div>
+
+        <div class="batik-grid" id="batikGrid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 4: TRANSPORTASI (MENUJU & KELILING SOLO)
+         ========================================================================== -->
+    <section class="section section-alt page-view" id="transportasi">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Konektivitas & Mobilitas</div>
+          <h2 class="section-title">Panduan <span class="gold-gradient-text">Akses Transportasi</span></h2>
+          <p class="section-desc">
+            Solo adalah salah satu kota ternyaman di Indonesia untuk dijelajahi dengan moda transportasi darat, udara,
+            dan rel yang terintegrasi.
+          </p>
+        </div>
+
+        <!-- Navigation Tabs Transportasi -->
+        <div class="transport-tabs-nav">
+          <button class="transport-tab-btn active" onclick="switchTransportTab('toSolo', this)">
+            Menuju ke Solo
+          </button>
+          <button class="transport-tab-btn" onclick="switchTransportTab('inSolo', this)">
+            Keliling Kota Solo
+          </button>
+        </div>
+
+        <!-- Grid Cards Transportasi -->
+        <div class="transport-grid" id="transportGrid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 5: ITINERARY PLANNER
+         ========================================================================== -->
+    <section class="section page-view" id="itinerary">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Rencana Perjalanan</div>
+          <h2 class="section-title">Inspirasi <span class="gold-gradient-text">Itinerary Wisata</span></h2>
+          <p class="section-desc">
+            Rancangan jadwal perjalanan yang efisien, hemat waktu, dan mencakup destinasi terbaik sesuai durasi liburan
+            Anda.
+          </p>
+        </div>
+
+        <!-- Selector Tabs Itinerary -->
+        <div class="itinerary-selector">
+          <button class="itinerary-btn active" onclick="switchItinerary('1-hari', this)">
+            1 Hari: Classic Heritage & Kuliner
+          </button>
+          <button class="itinerary-btn" onclick="switchItinerary('2-hari', this)">
+            2 Hari: Culture, Batik & Arts
+          </button>
+          <button class="itinerary-btn" onclick="switchItinerary('3-hari', this)">
+            3 Hari: The Ultimate Adventure
+          </button>
+        </div>
+
+        <!-- Display Card Itinerary -->
+        <div class="itinerary-view-card" id="itineraryDisplay"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 6: MULTIMEDIA & GALERI
+         ========================================================================== -->
+    <section class="section section-alt page-view" id="galeri">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Eksplorasi Visual</div>
+          <h2 class="section-title">Galeri <span class="gold-gradient-text">Foto & Video Solo</span></h2>
+          <p class="section-desc">
+            Saksikan keindahan sudut-sudut eksotis Kota Solo lewat lensa fotografer dan tayangan sinematik.
+          </p>
+        </div>
+
+        <!-- Video Showcase Box -->
+        <div class="video-showcase-box">
+          <div class="video-player-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/BL8zIuXYUdk?rel=0&modestbranding=1"
+              title="Kota Solo (Surakarta) | Cinematic Aerial Drone Video | DJI Mavic Mini"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Filter Galeri Foto -->
+        <div class="gallery-filter-nav">
+          <button class="filter-chip active" onclick="filterGallery('semua', this)">Semua Foto</button>
+          <button class="filter-chip" onclick="filterGallery('arsitektur', this)">Arsitektur Keraton</button>
+          <button class="filter-chip" onclick="filterGallery('budaya', this)">Seni & Budaya</button>
+          <button class="filter-chip" onclick="filterGallery('kuliner', this)">Kuliner</button>
+          <button class="filter-chip" onclick="filterGallery('alam', this)">Taman & Alam</button>
+        </div>
+
+        <!-- Photo Grid with Lightbox -->
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 7: FORM REKOMENDASI & PAPAN ULASAN KOMUNITAS
+         ========================================================================== -->
+    <section class="section page-view" id="rekomendasi">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge-tag">Suara Wisatawan</div>
+          <h2 class="section-title">Punya Rekomendasi <span class="gold-gradient-text">Tempat di Solo?</span></h2>
+          <p class="section-desc">
+            Bagikan tempat favorit, cafe tersembunyi, atau ulasan kuliner Solo Anda kepada para pelancong lainnya!
+          </p>
+        </div>
+
+        <div class="form-section-wrapper">
+          <!-- Form Rekomendasi & Validasi JS -->
+          <div class="form-card">
+            <h3 class="form-card-title">Kirim Rekomendasi Wisata</h3>
+            <p class="form-card-subtitle">Ulasan Anda akan langsung ditampilkan di papan rekomendasi komunitas.</p>
+
+            <form id="recommendationForm" novalidate>
+              <div class="form-group">
+                <label for="recName" class="form-label">Nama Lengkap <span class="req">*</span></label>
+                <input type="text" id="recName" class="form-control" placeholder="Contoh: Budi Santoso" required
+                  minlength="3">
+                <div class="form-error-msg">Nama minimal harus terdiri dari 3 karakter.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="recEmail" class="form-label">Alamat Email <span class="req">*</span></label>
+                <input type="email" id="recEmail" class="form-control" placeholder="nama@email.com" required>
+                <div class="form-error-msg">Masukkan alamat email yang valid.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="recCategory" class="form-label">Kategori Destinasi <span class="req">*</span></label>
+                <select id="recCategory" class="form-control" required>
+                  <option value="Wisata Sejarah & Keraton">Wisata Sejarah & Keraton</option>
+                  <option value="Kuliner Khas & Legendaris">Kuliner Khas & Legendaris</option>
+                  <option value="Penginapan & Hotel">Penginapan & Hotel</option>
+                  <option value="Taman & Alam Terbuka">Taman & Alam Terbuka</option>
+                  <option value="Seni, Batik & Kerajinan">Seni, Batik & Kerajinan</option>
+                  <option value="Spot Foto & Kafe Estetik">Spot Foto & Kafe Estetik</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="recPlace" class="form-label">Nama Tempat / Kedai <span class="req">*</span></label>
+                <input type="text" id="recPlace" class="form-control"
+                  placeholder="Contoh: Es Dawet Bu Dermi / Museum Keraton" required>
+                <div class="form-error-msg">Mohon tuliskan nama tempat wisata atau kuliner.</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Rating Pengalaman Anda <span class="req">*</span></label>
+                <div class="star-picker" id="starPicker">
+                  <span class="star-pick-item active" data-star="1">★</span>
+                  <span class="star-pick-item active" data-star="2">★</span>
+                  <span class="star-pick-item active" data-star="3">★</span>
+                  <span class="star-pick-item active" data-star="4">★</span>
+                  <span class="star-pick-item active" data-star="5">★</span>
+                </div>
+                <input type="hidden" id="ratingValue" value="5">
+              </div>
+
+              <div class="form-group">
+                <label for="recMessage" class="form-label">Alasan Rekomendasi / Ulasan <span
+                    class="req">*</span></label>
+                <textarea id="recMessage" class="form-control" rows="4"
+                  placeholder="Ceritakan keistimewaan tempat ini, menu favorit, atau tips berkunjung..." required
+                  minlength="10"></textarea>
+                <div class="form-error-msg">Ulasan minimal 10 karakter.</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary-gold" style="width: 100%; font-size: 1.05rem;">
+                <span>Kirim Rekomendasi Saya</span>
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+              </button>
+            </form>
+          </div>
+
+          <!-- Papan Komunitas Dinamis -->
+          <div class="community-board">
+            <div class="community-header">
+              <h3 class="community-title">Papan Rekomendasi Komunitas</h3>
+              <span class="badge-tag" style="margin-bottom: 0;">Live Ulasan</span>
+            </div>
+            <div class="community-reviews-list" id="communityReviewsList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER LENGKAP & HYPERLINK
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Kolom 1: Brand & Filosofi -->
+        <div class="footer-brand-col">
+          <div class="brand-logo">
+            <div class="logo-wayang" title="Logo Wayang Gunungan Surakarta">
+              <img src="assets/images/logowayang.png" alt="Logo Wayang Jelajah Solo">
+            </div>
+            <div class="brand-text">
+              <h2 style="font-size: 1.35rem;">JELAJAH SOLO</h2>
+              <span>The Spirit of Java</span>
+            </div>
+          </div>
+          <p>
+            Website resmi edukasi pariwisata, kebudayaan, kuliner, dan sejarah Kota Surakarta Hadiningrat. Menyatukan
+            nilai tradisi adiluhung dengan kemudahan informasi modern.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+              title="Instagram" aria-label="Instagram">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="YouTube"
+              aria-label="YouTube">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+              </svg>
+            </a>
+            <a href="https://maps.google.com/?q=Kota+Surakarta" target="_blank" rel="noopener noreferrer"
+              class="social-btn" title="Google Maps" aria-label="Google Maps">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                <circle cx="12" cy="9" r="2.5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Navigasi Cepat -->
+        <div>
+          <h4 class="footer-col-title">Navigasi Halaman</h4>
+          <ul class="footer-links-list">
+            <li><a href="#beranda">Beranda Utama</a></li>
+            <li><a href="#destinasi">Destinasi Wisata</a></li>
+            <li><a href="#kuliner">Wisata Kuliner</a></li>
+            <li><a href="#penginapan">Penginapan & Hotel</a></li>
+            <li><a href="#budaya">Sejarah & Filosofi Batik</a></li>
+            <li><a href="#transportasi">Transportasi Solo</a></li>
+            <li><a href="#itinerary">Panduan Itinerary</a></li>
+            <li><a href="#galeri">Galeri Multimedia</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Tautan Eksternal Resmi -->
+        <div>
+          <h4 class="footer-col-title">Tautan Resmi</h4>
+          <ul class="footer-links-list">
+            <li><a href="https://surakarta.go.id" target="_blank" rel="noopener noreferrer">Pemerintah Kota Solo ↗</a>
+            </li>
+            <li><a href="https://pariwisatasolo.surakarta.go.id" target="_blank" rel="noopener noreferrer">Dinas
+                Pariwisata Solo ↗</a></li>
+            <li><a href="https://mangkunegaran.com" target="_blank" rel="noopener noreferrer">Pura Mangkunegaran ↗</a>
+            </li>
+            <li><a href="https://kai.id" target="_blank" rel="noopener noreferrer">Pemesanan Tiket KAI ↗</a></li>
+            <li><a href="https://temanbus.com" target="_blank" rel="noopener noreferrer">Info Batik Solo Trans ↗</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4: Layanan Darurat & Lokasi -->
+        <div>
+          <h4 class="footer-col-title">Layanan Darurat Solo</h4>
+          <div class="footer-emergency-item">
+            <strong>Panggilan Darurat Kota Solo</strong>
+            <span>Call Center 112 (Bebas Pulsa)</span>
+          </div>
+          <div class="footer-emergency-item">
+            <strong>Polresta Surakarta</strong>
+            <span>(0271) 713033 / 110</span>
+          </div>
+          <div class="footer-emergency-item">
+            <strong>RSUD Dr. Moewardi Solo</strong>
+            <span>(0271) 634634</span>
+          </div>
+          <div class="footer-emergency-item">
+            <strong>Dinas Perhubungan Surakarta</strong>
+            <span>(0271) 717470</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Credits -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jelajah Solo — Dibuat untuk Proyek Pengembangan Web Pariwisata Indonesia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL DIALOGS
+       ========================================================================== -->
+
+  <!-- 1. Modal Detail Destinasi -->
+  <div class="modal-overlay" id="detailModal" role="dialog" aria-modal="true" aria-label="Detail Destinasi">
+    <div class="modal-dialog-box">
+      <button class="modal-close-btn" aria-label="Tutup Modal" onclick="closeAllModals()">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <div id="detailModalContent"></div>
+    </div>
+  </div>
+
+  <!-- 3. Modal Lightbox Galeri Foto -->
+  <div class="modal-overlay" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Perbesar Foto">
+    <div class="modal-dialog-box lightbox-modal">
+      <button class="modal-close-btn" aria-label="Tutup Lightbox" onclick="closeAllModals()">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <img src="" alt="Perbesar Gambar" id="lightboxImg" class="lightbox-img">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Javascript Files -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
